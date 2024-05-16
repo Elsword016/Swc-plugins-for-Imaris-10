@@ -1,18 +1,21 @@
 ## Imaris plugins
 
-Updated the original implementation by Sarun Gulyanon (2018) for **Imaris 10.1**
+Based on the original implementation by Sarun Gulyanon (2018). 
+
+Re-implemented from scratch for **Imaris 10.0.1** and **Python 3.7**
 
 ## Implementation details
 
 Based on the **Breadth-first search (BFS)** - algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth before moving on to the nodes at the next depth level.
 ## Required
- - Need `ImarisXT` license 
+ - `ImarisXT` license 
  - `Imarisbridge`
  -  `ImarisLib`
+ -  `Python 3.7`
 ## Files
 
-1. `swc_exporter.py`- Export any Imaris filaments as swc morphology- separate and in a single combined file.
-2. `swc_importer.py` - Import any swc morphology as Imaris filaments.
+1. `ExportSWC_new.py`- Export any Imaris filaments as swc morphology- separate and in a single combined file.
+2. `ImportSWC_new.py` - Import any swc morphology as Imaris filaments.
 
 ## Installation
 
