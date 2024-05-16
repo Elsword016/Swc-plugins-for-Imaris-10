@@ -2,7 +2,7 @@
 
 Based on the original implementation by Sarun Gulyanon (2018). 
 
-Used in the paper:
+Used for additional analysis of the paper:
 
 **Automated neuronal reconstruction with super-multicolour fluorescence imaging**
 
