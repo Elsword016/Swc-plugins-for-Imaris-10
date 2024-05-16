@@ -1,6 +1,13 @@
-## Imaris plugins
+## Swc importer and exporter for Imaris 10.0.1
 
 Based on the original implementation by Sarun Gulyanon (2018). 
+
+Used in the paper:
+
+**Automated neuronal reconstruction with super-multicolour fluorescence imaging**
+
+Marcus N. Leiwe, Satoshi Fujimoto, Toshikazu Baba, Daichi Moriyasu, Biswanath Saha, Richi Sakaguchi, Shigenori Inagaki, Takeshi Imai 
+[[bioRxiv 2022]](https://www.biorxiv.org/content/10.1101/2022.10.20.512984v1) [[github]](https://github.com/mleiwe/QDyeFinder)
 
 Re-implemented from scratch for **Imaris 10.0.1** and **Python 3.7**
 
@@ -23,4 +30,6 @@ Please check the `environment.yml` for the necessary packages. Recommended to th
 
 ## Installation
 
-Placed in the folder with the `ImarisLib` library folders and then run it from the Imaris window and follows the prompts on the GUI.
+Placed in the folder with the `ImarisLib` library folders and then run it from the Imaris window and follow the prompts on the GUI.
+
+
