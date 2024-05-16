@@ -20,7 +20,13 @@ Based on the **Breadth-first search (BFS)** - algorithm for searching a tree dat
  -  `ImarisLib`
  -  `Python 3.7`
 
-## File format
+## Files
+
+1. `ExportSWC_new.py`- Export any Imaris filaments as swc morphology- separate and in a single combined file.
+2. `ImportSWC_new.py` - Import any swc morphology as Imaris filaments.
+
+
+## Morphology file specifications
 
 **Standard .swc** morphologies only (no swc+). 
 
@@ -36,10 +42,6 @@ Data imported/exported follows the [Neuromorpho specifications](http://www.neuro
 ## Depedencies
 
 Please check the `environment.yml` for the necessary packages. Recommended to the use a conda environment.
-## Files
-
-1. `ExportSWC_new.py`- Export any Imaris filaments as swc morphology- separate and in a single combined file.
-2. `ImportSWC_new.py` - Import any swc morphology as Imaris filaments.
 
 ## Installation
 
