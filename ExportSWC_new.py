@@ -101,10 +101,10 @@ def XTExportSWC(aImarisId):
 					prevs.append(head+1)
 			head += 1
 		filename_filament = f"{savename}_filament_{i}.swc"
-		print('Exported '+str(i+1)+'/'+str(vCount)+' filaments',end='\r')
+		print('Exported '+str(i+1)+'/'+str(vCount)+' filaments',end='\r') ## Export individual filaments as separate swcs 
 		swcs = np.vstack((swcs,swc))
 		np.savetxt(filename_filament,swc,fmt='%d %d %f %f %f %f %d')
-	np.savetxt(savename,swcs,fmt='%d %d %f %f %f %f %d')
+	np.savetxt(savename,swcs,fmt='%d %d %f %f %f %f %d') # Combined swcs
 	print('All filaments exported!')
 	time.sleep(5)
 		
