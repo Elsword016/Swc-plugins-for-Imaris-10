@@ -1,6 +1,6 @@
 ## Swc importer and exporter for Imaris 10.0.1
 
-Based on the original implementation by Sarun Gulyanon (2018). 
+Based on the original implementation by Sarun Gulyanon (2018). Re-implemented from scratch for **Imaris 10.0.1** and **Python 3.7** and updated some things like generation and saving individual filaments separately and exports more consistent with the .swc specifications.
 
 Used for additional analysis of the paper:
 
@@ -9,7 +9,7 @@ Used for additional analysis of the paper:
 Marcus N. Leiwe, Satoshi Fujimoto, Toshikazu Baba, Daichi Moriyasu, Biswanath Saha, Richi Sakaguchi, Shigenori Inagaki, Takeshi Imai 
 [[bioRxiv 2022]](https://www.biorxiv.org/content/10.1101/2022.10.20.512984v1) [[github]](https://github.com/mleiwe/QDyeFinder)
 
-Re-implemented from scratch for **Imaris 10.0.1** and **Python 3.7**
+
 
 ## Implementation details
 
@@ -19,6 +19,19 @@ Based on the **Breadth-first search (BFS)** - algorithm for searching a tree dat
  - `Imarisbridge`
  -  `ImarisLib`
  -  `Python 3.7`
+
+## File format
+
+**Standard .swc** morphologies only (no swc+). 
+
+Data imported/exported follows the [Neuromorpho specifications](http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html) should look like this:
+
+- Encoding:  ASCII text
+- Limitations: no markers, no spines.
+- Comment lines begin with character '#'.
+- Subsequent non-empty lines each represent a single neuron sample point with seven data items.
+
+![image](https://github.com/Elsword016/Swc-plugins-for-Imaris-10/assets/29883365/d2437612-806a-4a88-b544-bea8054a8590)
 
 ## Depedencies
 
@@ -30,6 +43,6 @@ Please check the `environment.yml` for the necessary packages. Recommended to th
 
 ## Installation
 
-Placed in the folder with the `ImarisLib` library folders and then run it from the Imaris window and follow the prompts on the GUI.
+Place in the folder with the `ImarisLib` library folders and then run it from the Imaris window and follow the prompts on the GUI.
 
 
