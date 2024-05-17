@@ -39,7 +39,7 @@ Data imported/exported follows the [Neuromorpho specifications](http://www.neuro
 
 ![image](https://github.com/Elsword016/Swc-plugins-for-Imaris-10/assets/29883365/d2437612-806a-4a88-b544-bea8054a8590)
 
-## Depedencies
+## Dependencies
 
 Please check the `environment.yml` for the necessary packages. Recommended to the use a conda environment.
 
