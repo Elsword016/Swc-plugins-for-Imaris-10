@@ -39,12 +39,9 @@ Data imported/exported follows the [Neuromorpho specifications](http://www.neuro
 
 ![image](https://github.com/Elsword016/Swc-plugins-for-Imaris-10/assets/29883365/d2437612-806a-4a88-b544-bea8054a8590)
 
-## Dependencies
-
-Please check the `environment.yml` for the necessary packages. Recommended to the use a conda environment.
 
 ## Installation
 
-Place in the folder with the `ImarisLib` library folders and then run it from the Imaris window and follow the prompts on the GUI.
+Place in the folder with the `ImarisLib` library folders (default is `C:/ProgramFiles/Bitplane/Imaris10/XT/python3/`) and then run it from the Imaris window and follow the prompts on the GUI.
 
 
