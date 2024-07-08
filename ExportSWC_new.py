@@ -22,8 +22,8 @@ import logging
 from tkinter import *
 from tkinter import messagebox
 from tkinter import simpledialog,filedialog
-logging.basicConfig(filename='G://swc_converter_log.txt', level=logging.DEBUG, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='', level=logging.DEBUG, 
+                    format='%(asctime)s - %(levelname)s - %(message)s') #add your own path
 def XTExportSWC(aImarisId):
 	# Create an ImarisLib object
 	vImarisLib = ImarisLib.ImarisLib()
