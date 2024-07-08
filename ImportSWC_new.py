@@ -23,8 +23,8 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import simpledialog,filedialog
 import os 
-logging.basicConfig(filename='G://swc_importer_log.txt', level=logging.DEBUG, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='', level=logging.DEBUG, 
+                    format='%(asctime)s - %(levelname)s - %(message)s') #add your filepath
 def XTImportSWC(aImarisId):
 	# Create an ImarisLib object
 	vImarisLib = ImarisLib.ImarisLib()
